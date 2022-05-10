@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+         <article>
+            <h1 class="header-title"><a href="contact.html" >Nous contacter</a></h1>
+            <nav class="header-nav">
+                <a href="index.html" title="accueil">Acueil</a>
+                <a href="menu.html" title="voir le menu">Menu</a>
+                <a href="contact.html" title="nous contactez">Contacte</a>
+            </nav>
+            
+            <img src="img/restaurant.jpg" alt="image du restaurant" width="1260" height="366">
+         </article>
+    </header>
+
+    <section class="main">
+        <h2><a href="contact.html">Où nous trouver</a></h2>
+        <p>
+            126 rue de la paix<br>
+            39353 Seins denis<br>
+            France
+             
+        </p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20964.695401437308!2d2.4281088!3d48.9423091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66b898e347e27%3A0x10803a4e9c0cc1cc!2sParc%20d%C3%A9partemental%20Georges-Valbon!5e0!3m2!1sfr!2sfr!4v1649435605769!5m2!1sfr!2sfr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <h2>Nous envoyer un email</h2>
+            <form action="contact.html">
+                <div>
+                    <label for="email">Votre email <sup>*</sup></label>
+                    <input type="email" required id="email" name="email" placeholder="votre@email.fr">
+
+                </div>
+                <br>
+                <div>
+                    <label for="firstname">Votre prenom <sup>*</sup></label>
+                    <input type="text" required id="firstname" name="firstname">
+                </div>
+                <br>
+                <div>
+                    <label for="message">Votre message <sup>*</sup></label>
+                    <textarea  required id="message" name="message" placeholder="envoyer nous votre message"></textarea>
+                </div>
+                <button type="submit">Envoyer</button>
+                
+            </form>
+    </section>
+    
+    <footer class="footer">
+        <address> 126 rue de la paix</address>
+    </footer>
+</body>
+</html>
